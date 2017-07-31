@@ -1,0 +1,22 @@
+{
+  "name": "bootcamp25",
+  "version": "1.0.0",
+  "description": "Andela Bootcamp25",
+  "main": "app/aritGeo.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "TDD",
+    "Javascript"
+  ],
+  "author": "Ruth Nnochiri",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
