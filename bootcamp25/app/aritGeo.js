@@ -18,26 +18,23 @@ module.exports = {
 
             //loop through to determine if its geometric or arithmetic
             for(let i =0; i < array.length-1; i++ ){
-                
                 if(array[i+1] - array[i] != arith ){
                     arithmetic = false;
                 }
-
                 if(array[i+1] / array[i] != geo ){
                     geometric = false;
-                }
-                
+                }   
             }
 
             //if is arithmetic; return value
             if(arithmetic == true){
                 return 'Arithmetic';
 
-            //if is Geometric; retune values
+            //if it is Geometric; retune values
             }else if(geometric == true){
                 return 'Geometric';
 
-            //if its  none, return value
+            //if it is neither arithmetic none geometric return value
             }else if(arithmetic == false && geometric == false){
                 return -1 ;
             }
